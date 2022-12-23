@@ -72,6 +72,21 @@ git diff --staged ( aapke pichle comments se ab tak ke staging area ko )
 
 git commit -a -m "Direct Commit"
 
+git log  ( to show all commits)
+
+q   ( this key edit again the pager )
+
+-------------------------------------------------------------------------------------
+
+# 10  Moving and Renaming Files In Git 
+
+git rm delte.txt ( this command delete the file )
+
+
+
+
+
+
 
 
 
