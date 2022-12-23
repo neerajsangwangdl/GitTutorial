@@ -28,6 +28,19 @@ git add command.txt ( to add another file into staging area)
 
 git commit -m "second change"
 
+-----------------------------------------------------------------------------------
+Video  #5 ( Cloning a Remote Git Repository from GitHub | Git Tutorial # 5
+
+rm -rf .git ( to delete repository )
+
+git clone   ( to clone the repository)
+
+pwd     ( present working directory)
+
+ls 	   ( to list content)
+
+cd      ( change directory)
+
 
 
 
