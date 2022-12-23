@@ -41,6 +41,23 @@ ls 	   ( to list content)
 
 cd      ( change directory)
 
+----------------------------------------------------------------------------
+
+#6
+
+untracked --> unmodified --> modified --> staged
+
+-------------------------------------------------------------------------------
+
+#7  .gitignore: Ignoring Files in Git | Git Tutorials #7
+
+touch error.log   ( it makes a new file in folder and this file does not use in the project)
+
+
+
+
+
+
 
 
 
