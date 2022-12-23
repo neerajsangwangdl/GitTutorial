@@ -51,8 +51,35 @@ untracked --> unmodified --> modified --> staged
 
 #7  .gitignore: Ignoring Files in Git | Git Tutorials #7
 
-touch error.log   ( it makes a new file in folder and this file does not use in the project)
+touch .gitignore ( In this file u can write file name to ignore from the project)
 
+touch error.log  
+
+*.log ( all log files ignore)
+dir/  ( dir folder ignore)
+
+-----------------------------------------------------------------------------------
+
+# 8 Git Diff: Showing Changes Between Commits/Staging Area & Working Directory | 
+
+git diff ( compare the file staging area to working directory se)
+
+git diff --staged ( aapke pichle comments se ab tak ke staging area ko )
+
+-------------------------------------------------------------------------------------
+
+#9 Skipping The Staging Area | Git Turorials
+
+git commit -a -m "Direct Commit"
+
+
+
+
+
+
+
+
+-------------------
 
 
 
