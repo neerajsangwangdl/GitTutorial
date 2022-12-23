@@ -55,6 +55,9 @@ touch .gitignore ( In this file u can write file name to ignore from the project
 
 touch error.log  
 
+git rm --cached dir/ ( file ko untrack karega )( file ko delete dikhyega par delete nahi krega
+
+
 *.log ( all log files ignore)
 dir/  ( dir folder ignore)
 
@@ -82,19 +85,19 @@ q   ( this key edit again the pager )
 
 git rm delte.txt ( this command delete the file )
 
+git commit -m "delete.txt file"
+
+get status
+
+git mv first.txt first_renamed.txt
+
+git rm --cached dir/ ( file ko untrack karega )( file ko delete dikhyega par delete nahi krega
+
+------------------------------------------------------------------------------------------------
+
+# 11 Git Log: Viewing & Changing Commits In Git 
 
 
-
-
-
-
-
-
-
-
-
-
--------------------
 
 
 
