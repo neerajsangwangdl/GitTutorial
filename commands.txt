@@ -18,5 +18,13 @@ git status ( to check how many files in staging area)
 
 git commit -m "Initial Commit"   ( your commit has been committed)
 
+git status ( nothing to commit, working tree clean)
+
+git log ( to check who committed in the repository )
+
+git add second.text
+
+
+
 
 
