@@ -22,7 +22,14 @@ git status ( nothing to commit, working tree clean)
 
 git log ( to check who committed in the repository )
 
-git add second.text
+git add second.txt  ( to add a specific file into staging area)
+
+git add command.txt ( to add another file into staging area)
+
+git commit -m "second change"
+
+
+
 
 
 
