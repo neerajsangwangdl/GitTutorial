@@ -1,0 +1,14 @@
+git config --global user.name "Neeraj"     ( for configuring the name)
+
+git config --global user.name "neerajsangwandl@gmail.com" (for configuring the mail)
+
+video no. 4
+
+git status ( to check the status )
+
+To make a repository there are commands
+
+git init
+
+
+
