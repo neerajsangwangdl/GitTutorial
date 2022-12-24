@@ -99,7 +99,7 @@ git rm --cached dir/ ( file ko untrack karega )( file ko delete dikhyega par del
 
 git clone git clone git@github.com:yantracompany/frontend.git frontend  ( frotend ke folder me clone hogi)
 
-
+hello
 
 
 
