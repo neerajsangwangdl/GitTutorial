@@ -190,6 +190,13 @@ git config --gobal alias.llast 'log -p -1' (show last comment Now git last )
 
 ------------------------------------------------------------------------------------
 
+# 15 Creating & Switching Branches in Git
+
+git checkout -b develop  ( it will make a new branch aur leke bhi jayega nayi branch me)
+
+
+
+
 
 
 
