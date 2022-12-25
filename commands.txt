@@ -190,6 +190,30 @@ git config --gobal alias.llast 'log -p -1' (show last comment Now git last )
 
 ------------------------------------------------------------------------------------
 
+# 15 Creating & Switching Branches in Git
+
+git checkout -b develop  ( it will make a new branch aur leke bhi jayega nayi branch me)
+
+git checkout master     ( go to master  branch)
+
+git checkout develop    ( go to develop branch )
+
+git branch              ( it shows all branches )
+
+git push -u origin develop  ( push to develop branch )
+
+-----------------------------------------------------------------------------------
+
+# 16 Branch & Merging a Producton Grade Project 
+
+
+
+
+
+
+
+
+
 
 
 
