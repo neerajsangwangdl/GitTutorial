@@ -208,6 +208,15 @@ git push -u origin master  ( push to master branch )
 
 # 16 Branch & Merging a Producton Grade Project 
 
+git merge try ( it merges into master branch)
+
+git add .
+
+git commit ( without -m an editor will open )  
+	     (type escape ^ than type : wq + enter)
+
+
+
 
 
 
