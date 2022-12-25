@@ -95,11 +95,87 @@ git rm --cached dir/ ( file ko untrack karega )( file ko delete dikhyega par del
 
 ------------------------------------------------------------------------------------------------
 
+------------------------------------------------------------------------------------------------
+
 # 11 Git Log: Viewing & Changing Commits In Git 
 
 git clone git clone git@github.com:yantracompany/frontend.git frontend  ( frotend ke folder me clone hogi)
 
-hello
+
+git log  ( to see comments)
+
+git log -p  ( what is remove with comments)
+
+git log -p -2 ( it will show last 2 comments with difference)
+
+git log --stat ( it shows insertion and deletion)
+
+git log --pretty=oneline ( all comments in one line )
+
+git log --pretty=short ( latest comments in short lines )
+
+Author means ( who made the file )
+commentator  ( who comments in the file )
+
+git log --since=2.days (last 2 days work)
+
+git log --since=2.weeks ( last 2 weeks)
+
+git log --since=2.months ( for last 2 months and so on years too)
+
+git log --pretty=format:  ( search in chrome " git scm useful options for log format" 
+                          ( this is the website " https://git-scm.com/docs/git-log "
+                          
+git commit --amend     ( to change commit )
+
+------------------------------------------------------------------------------------------
+
+# 12 Unstaging & Unmodifying Files In Git 
+
+git add 'file name' ( file will go to staging area)
+
+git restore --staged 'file name' ( file back to the unstage)
+
+git checkout --'file name' ( restore the file previous stage)
+
+git checkout -f ( all files back to the previous stage)
+
+----------------------------------------------------------------------------------
+
+# 13 Git Remote
+
+git remote ( send  file to the git website )
+            ( make repository in git website)
+
+git remote add origin git@github.com:neerajsangwangdl/GitTutorial.git
+
+git remote ( type it )
+
+origin ( it will be shown) 
+
+git remote -v (it wil be shown
+               origin  git@github.com:neerajsangwangdl/GitTutorial.git (fetch)
+               origin  git@github.com:neerajsangwangdl/GitTutorial.git (push)
+
+
+git push -u origin master ( not permission, you have to go the git website and click 
+				   ( setting--SSH and GPG keys  for key have to write ssh keys github on google
+				  (  
+
+---------------------------------------------------------------------------------------------------
+
+ssh keys steps
+
+ssh-keygen -t ed25519 -C "neerajsangwandl@gmail.com"
+
+enter+y+enter+enter
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+tail ~/.ssh/id_rsa.pub
+
 
 
 
