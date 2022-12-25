@@ -158,9 +158,9 @@ git remote -v (it wil be shown
                origin  git@github.com:neerajsangwangdl/GitTutorial.git (push)
 
 
-git push -u origin master ( not permission, you have to go the git website and click 
-				   ( setting--SSH and GPG keys  for key have to write ssh keys github on google
-				  (  
+git push -u origin master
+				  
+				  
 
 ---------------------------------------------------------------------------------------------------
 
@@ -175,6 +175,20 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
 tail ~/.ssh/id_rsa.pub
+
+---------------------------------------------------------------------------------------------------
+
+# 14 Setting Alia In Git 
+
+git confit --global alias.st status    ( now git st )
+
+git config --global alias.ci commit    ( now git ci )
+
+git config --global alias.unstage 'restore --staged --'   ( now git unstage this.txt)
+
+git config --gobal alias.llast 'log -p -1' (show last comment Now git last )
+
+------------------------------------------------------------------------------------
 
 
 
