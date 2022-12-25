@@ -202,6 +202,8 @@ git branch              ( it shows all branches )
 
 git push -u origin develop  ( push to develop branch )
 
+git push -u origin master  ( push to master branch )
+
 -----------------------------------------------------------------------------------
 
 # 16 Branch & Merging a Producton Grade Project 
